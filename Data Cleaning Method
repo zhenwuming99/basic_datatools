@@ -1,1 +1,9 @@
-
+How to handel large data set?
+		1.Get Rid of Extra Spaces
+		2.Select and Treat All Blank Cells
+		3.Convert Numbers Stored as Text into Numbers
+		4.Remove Duplicates
+		5.Highlight Errors
+		6.Change Text to Lower/Upper/Proper Case
+		7.Spell Check
+		8.Delete all Formatting
