@@ -60,5 +60,23 @@ Limit 10;
 
 
 
+-UPDATE student SET GPA=3.5;
+-SELECT FirstName AS "First Name";
+-SELECT * FROM Fruits WHERE Name = 'Apple';
+-Create Table :
+CREATE TABLE right (a INTEGER, b TEXT, c TEXT);
+INSERT INTO right VALUES ( 1, 'This', 'Right here!' );
+INSERT INTO right (b,c) VALUES ('That', 'Over there!' );
+INSERT INTO right DEFAULT VALUES;
+
+-The DROP TABLE statement enables you to delete a table from a database and if the table did not exist then attempting to DROP it would cause an error to occur.
+
+`Constraint: 
+CREATE TABLE People (FirstName TEXT DEFAULT 'Mickey', address TEXT, city TEXT);
+
+-The SELECT DISTINCT statement removes duplicates from a result set.
+
+-SELECT SUBSTR("SQL Tutorial", 5, 3) AS ExtractString;
+Extract a substring from a string (start at position 5, extract 3 characters):
 
 
